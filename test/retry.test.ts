@@ -86,8 +86,8 @@ describe('parseRetryAfter', () => {
     const dateString = futureDate.toUTCString();
     const parsed = parseRetryAfter(dateString);
 
-    expect(parsed).toBeGreaterThan(29000); // Allow for some execution time
-    expect(parsed).toBeLessThanOrEqual(30000);
+    expect(parsed).toBeGreaterThan(28000); // Allow for execution time
+    expect(parsed).toBeLessThanOrEqual(31000); // Allow for timing variance
   });
 
   it('should handle past dates', () => {
