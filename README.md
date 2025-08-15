@@ -1,6 +1,15 @@
 # @sgnl-ai/set-transmitter
 
+[![CI](https://github.com/SGNL-ai/set-transmitter-js/actions/workflows/ci.yml/badge.svg)](https://github.com/SGNL-ai/set-transmitter-js/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/SGNL-ai/set-transmitter-js/branch/main/graph/badge.svg?token=68782b53-dced-4689-a7a2-0722a95bb254)](https://codecov.io/gh/SGNL-ai/set-transmitter-js)
+[![npm version](https://img.shields.io/npm/v/@sgnl-ai/set-transmitter.svg)](https://www.npmjs.com/package/@sgnl-ai/set-transmitter)
+[![Known Vulnerabilities](https://snyk.io/test/github/SGNL-ai/set-transmitter-js/badge.svg)](https://snyk.io/test/github/SGNL-ai/set-transmitter-js)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
+
 HTTP transmission library for Security Event Tokens (SET) with CAEP/SSF support. Zero runtime dependencies, built on native fetch API.
+
+Built by [SGNL.ai](https://sgnl.ai) as part of our commitment to advancing continuous access evaluation and the shared signals framework.
 
 ## Features
 
