@@ -9,6 +9,7 @@ on:
 jobs:
   test:
     name: Test on Node ${{ matrix.node-version }}
+    environment: CI
     runs-on: ${{ matrix.os }}
     
     strategy:
